@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+cd /home/ec2-user/environment
 sudo yum -y install openssl-devel bzip2-devel libffi-devel wget
 
 #https://www.python.org/downloads/source/
