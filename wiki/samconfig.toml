@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "wiki"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-t5s4lxc1chnw"
+s3_prefix = "wiki"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []

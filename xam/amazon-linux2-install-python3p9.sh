@@ -21,4 +21,3 @@ echo "use python3.9 -m venv env"
 #NOTE: voclabs:~/environment $ ls -al /usr/bin/python*
 #lrwxrwxrwx 1 root root   16 Dec 13 12:44 /usr/bin/python3-config -> python3.7-config
 #lrwxrwxrwx 1 root root    9 Dec 13 12:36 /usr/bin/python3 -> python3.7
-
