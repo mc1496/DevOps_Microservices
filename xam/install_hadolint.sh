@@ -16,6 +16,8 @@ echo $RSP
 #if [[ "$STR" =~ .*"OK".* ]]; then
 if [[ "$RSP" =~ .*"OK" ]]; then
     echo "OK"
+    sudo cp $HL ~/.local/bin/hadolint
+    sudo chmod +x ~/.local/bin/hadolint
 else
     echo "Sha256 (File Integrity) is Failed"
 fi
